@@ -1,0 +1,128 @@
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  box-sizing: 20px;
+  background-color: rgb(255, 205, 77);
+}
+
+nav ul {
+  display: flex;
+  padding: 10px 10px;
+  justify-content: right;
+  color: black;
+}
+
+nav ul li {
+  padding: 10px;
+  display: flex;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: rgb(2, 1, 0);
+  border: 2px solid rgb(172, 128, 14);
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+.icons span {
+  cursor: pointer;
+  padding: 5px;
+}
+h4 {
+  display: flex;
+  justify-content: left;
+}
+#arrow {
+  display: flex;
+  justify-content: left;
+}
+
+.bannerText a {
+  border: 3px solid rgb(184, 144, 43);
+  border-radius: 5px;
+  display: inline-block;
+  color: black;
+  text-decoration: solid;
+  background-color: rgb(226, 191, 103);
+}
+
+.bannerText a:hover {
+  background-color: rgb(184, 144, 43);
+}
+
+.bannerText h1 {
+  font-family: Poppins, raleway;
+  font-size: xx-large;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+}
+
+.linkedin a {
+  display: inline-block;
+}
+
+.contact ul {
+  display: flex;
+  padding: 100px 100px;
+  justify-content: center;
+  color: black;
+}
+
+.contact ul li {
+  padding: 10px;
+  display: flex;
+  display: inline-block;
+  border: 3px solid rgb(184, 144, 43);
+  border-radius: 5px;
+  display: inline-block;
+  color: black;
+  text-decoration: solid;
+  background-color: rgb(247, 216, 138);
+}
+
+.contact ul li:hover {
+  background-color: rgb(184, 144, 43);
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}
+.contact ul li a {
+  padding: 10px;
+  display: flex;
+  display: inline-block;
+}
+
+p {
+  font-size: large;
+}
+
+.bannerText img {
+  display: flex;
+  justify-content: right;
+}
+/* .contact {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  gap: 0.8rem;
+} */
+#pic {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  gap: 0.8rem;
+}
